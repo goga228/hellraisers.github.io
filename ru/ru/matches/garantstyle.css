@@ -1,0 +1,41 @@
+.prem {
+	font-size:1.3em;
+	font-weight: bolder;
+
+}
+.content {
+	margin-top:19px;
+	padding-left:13px;
+	padding-right: 9px;
+}
+.premul {
+	padding:0;
+	margin:0;
+}
+.prem ol li p{
+	color: #777;
+}
+.text {
+	font-size:1.08em;
+	color:#1F2021;
+}
+.usl {
+	color:#1A96D4;
+	font-size:1.12em;
+}
+.usl:hover {
+	color:#1A96D4;
+	text-decoration: underline;
+}
+.conf {
+	font-size:1.1em;
+	font-weight: bolder;
+}
+.garanttext {
+	cursor: default;
+}
+.required {
+	color:red;
+	font-size:1.22em;
+	line-height: 1px;
+}

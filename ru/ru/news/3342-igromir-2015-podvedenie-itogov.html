@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<!-- Mirrored from hellraisers.pro/ru/news/3342-igromir-2015-podvedenie-itogov by HTTrack Website Copier/3.x [XR&CO'2013], Tue, 05 Jul 2016 14:37:57 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset='utf-8'>
+<meta content='IE=Edge,chrome=1' http-equiv='X-UA-Compatible'>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"4d0c8ef7f9","applicationID":"6788473","transactionName":"J1hdFUZYDVpVEEoFEANYbAlRWw1EUQsWAxEXGFUTW1kVU14GOgcREF5QDVFETkVYDRI=","queueTime":0,"applicationTime":1948,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"Uw8AUlNRGwUHXFlWAAI="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,-1!==o.indexOf("dev")&&(s.dev=!0),-1!==o.indexOf("nr_dev")&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f?f.apply(this,a(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),s.on(m,function(){this.bstStart=Date.now()}),s.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(17)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;d>r;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||10>p)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;d>a;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("../../index.html")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(t,e){return function(){o(t,[(new Date).getTime()].concat(a(arguments)),null,e)}}var o=t("handle"),i=t(15),a=t(16);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var s=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(s,function(t,e){newrelic[e]=r(f+e,"api")}),i(c,function(t,e){newrelic[e]=r(f+e)}),e.exports=newrelic,newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),o("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;s>c;c++)a[c].apply(i,r);var u=f[w[n]];return u&&u.push([v,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",w[n]=e,e in f||(f[e]=[])})}var m={},w={},v={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return v}function i(){return new r}var a="nr@context",s=t("gos"),c=t(15),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!g++){var t=y.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(w,function(e,n){t[e]||(t[e]=n)});var n="https"===m.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(15),f=window,u=f.document,d="addEventListener",l="attachEvent",p=f.XMLHttpRequest,h=p&&p.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:p,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(12);var m=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-952.min.js"},v=p&&h&&h[d]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:m,features:{},xhrWrappable:v};u[d]?(u[d]("DOMContentLoaded",i,!1),f[d]("load",r,!1)):(u[l]("onreadystatechange",o),f[l]("onload",r)),s("mark",["firstbyte",a()],null,"api");var g=0},{}]},{},["loader",2,10,4,3]);</script>
+<title>Новости - hellraisers.pro</title>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="691kMaj5Bo0jtGFJJu1pdIE0c+Mk0xjsBMYDUmPjnGo=" name="csrf-token" />
+<link href="../../assets/front/application-hr-f053b2051ada6de8c823d71441f88b69.css" media="all" rel="stylesheet" type="text/css" />
+<link href="../../faviconstarladderc4ca.ico@1" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../../../www.google-analytics.com/analytics.js','ga');
+  
+  ga('create', 'UA-49608225-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  
+  var googletag = googletag || {};googletag.cmd = googletag.cmd || [];
+  (function() {
+  var gads = document.createElement('script');
+  gads.async = true;
+  gads.type = 'text/javascript';
+  var useSSL = 'https:' == document.location.protocol;
+  gads.src = (useSSL ? 'https:' : 'http:') +
+  '//www.googletagservices.com/tag/js/gpt.js';
+  var node = document.getElementsByTagName('script')[0];
+  node.parentNode.insertBefore(gads, node);
+  })();
+  
+  googletag.cmd.push(function() {
+  googletag.defineSlot('/4263144/312', [312, 356], 'div-gpt-ad-1407842542040-0').addService(googletag.pubads());
+  googletag.pubads().enableSingleRequest();
+  googletag.enableServices();
+  });
+</script>
+</head>
+<body>
+<div class='head-wrapper'>
+<div class='container'>
+<nav class='navbar navbar-default navbar-static-top styled' role='navigation'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-3 col-md-4'>
+<ul class='list-inline'>
+<li><a href="../../ru.html" class="network">Network</a></li>
+</ul>
+</div>
+<div class='col-xs-3 col-md-4 dropdown-wrapper'>
+<div class='btn-group' data-href='/ru/switch_timezone' id='toggle_time_zones'>
+<button class='btn btn-sm dropdown-toggle' data-toggle='dropdown' type='button'>
+<span class='glyphicon glyphicon-time'></span>
+<span data-alias='current' data-offset='0' id='current_timezone'>
+Moe время GMT 0
+</span>
+<span class='caret'></span>
+</button>
+<ul class='dropdown-menu'>
+<li><a href="3342-igromir-2015-podvedenie-itogov.html#" class="switch-timezone" data-alias="Paris" data-offset="2">CEST Time UTC +2</a></li>
+<li class='divider'></li>
+</ul>
+</div>
+
+</div>
+<div class='col-xs-6 col-md-4'>
+<ul class='list-inline switch-lang pull-right'>
+<li>
+<a href="../../en/news/3342-igromir-2015-summarizing.html"><span class="famfamfam-flag-en" title="en"></span>
+</a></li>
+<li>
+<a href="3342-igromir-2015-podvedenie-itogov.html"><span class="famfamfam-flag-ru" title="ru"></span>
+</a></li>
+</ul>
+<ul class='list-inline pull-right'>
+<li>
+<a href="../register.html" class="load_modal_registration"><span class='underline'>
+Создать аккаунт
+</span>
+</a> или
+<a href="../login.html" class="load_modal_login"><span class='underline'>
+ Войти
+</span>
+</a></li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+
+<nav class='navbar navbar-inverse navbar-static-top navbar-custom-strong' role='navigation'>
+<div class='navbar-header'>
+<button class='navbar-toggle' data-target='#bs-example-navbar-collapse-1' data-toggle='collapse' type='button'>
+<span class='sr-only'>Toggle navigation</span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</button>
+</div>
+<div class='collapse navbar-collapse pull-left' id='bs-example-navbar-collapse-1'>
+<ul class='nav navbar-nav navbar-left'>
+<li><a href="../index.html">Главная</a></li>
+<li class='active'><a href="../news.html">Новости</a></li>
+<li><a href="../video.html">Видео</a></li>
+<li><a href="../matches/garant.html">Гарант</a></li>
+<li><a href="../broadcasts.html">Трансляции</a></li>
+<li><a href="../roster.html">Состав</a></li>
+<li><a href="../pages/partnershr.html">Партнеры</a></li>
+<li><a href="../pages/contactshr.html">Контакты</a></li>
+</ul>
+</div>
+</nav>
+
+</div>
+<div class='container relative'>
+<div class='main-head'>
+<div class='row'>
+<div class='col-md-4'>
+<a href="../../ru.html"><img src='../../img/hr/logo-hr.png'>
+</a></div>
+<div class='col-md-8 text-right'>
+<a href="http://egb.com/" target="_blank"><img src='../../img/hr/egb.png'>
+</a><a href="http://twitch.tv/" target="_blank"><img src='../../img/hr/twitch_n.png'>
+</a></div>
+</div>
+</div>
+</div>
+
+
+</div>
+<div class='container container-message'>
+<div class='row'>
+<div class='col-xs-12'></div>
+<div class='inter-info'></div>
+</div>
+</div>
+<div class='container' id='article_3342'>
+<div class='row'>
+<div class='col-sm-12'>
+<div class='row'>
+<div class='col-sm-8'>
+<div class='panel contrast'>
+<div class='panel-body'>
+<h2 class='title'>Игромир 2015. Подведение итогов</h2>
+<div class='clearfix'></div>
+<ul class='list-inline meta xs meta-lg'>
+<li>
+<span class='glyphicon glyphicon-calendar'></span>
+<i><time class="relative-date" data-format="DD MMMM YYYY" data-timestamp="2015-10-13T13:31:00Z" data-type="format">13 окт. 2015</time></i>
+</li>
+<div class='clearfix'></div>
+</ul>
+<div class='clearfix'></div>
+Организация Game Show предоставила пост-релиз активностей на выставке «Игромир 2015».
+<div class='clearfix'></div>
+<div class='vertical-gutter'></div>
+<img alt="Игромир 2015. Подведение итогов" src="../../uploads/news/article/picture/3342/igromir2015_1.jpg" />
+<div class='clearfix'></div>
+<div class='vertical-gutter'></div>
+<p>В Москве завершились главные события российского и игрового мира - крупнейшая в СНГ юбилейная выставка Игромир и фестиваль поп-культуры Comic Con Russia. Компания Game Show, эксклюзивный оператор киберспортивной зоны на Игромире, вновь привлекла внимание десятков тысяч посетителей.</p>
+
+<p>На протяжении четырех дней в зоне Game Show проходили ключевые матчи в рамках <strong>Global eSports Cup Season 1</strong> в дисциплине Dota 2 региона СНГ, а также гранд-финалы второго сезона <strong>Game Show Open</strong> по CS:GO и Hearthstone с общим призовым фондом в 350 000 рублей.</p>
+
+<p><strong>Результаты матчей Global eSports Cup Season 1 в дисциплине Dota 2.</strong></p>
+
+<p>Четыре команды получили прямое приглашение на данный этап: <strong>HellRaisers, Arcade.Power Rangers, ScaryFacez </strong>и <strong>Newteam123,</strong> собранная ветераном Dota 2 Артуром Костенко aka Goblak. Две команды были отобраны в результате открытой квалификации, в которых участвовало более 200 коллективов со всего СНГ: <strong>BRM (ex Walrus Punch)</strong> и также недавно сформировавшаяся команда <strong>CIS Rejects.</strong> Еще один коллектив, получивший возможность попробовать свои силы на PRO сцене - команда <strong>Enso,</strong> победитель турнира Game Show Open.</p>
+
+<p style="text-align: center;"><img alt="" src="../../uploads/ckeditor/elfinder/hellraisers/Lostov/igromir2015_2.jpg" style="width: 600px; height: 134px;" /></p>
+
+<p>Семь коллективов из России и СНГ сражались за выход в плей-офф турнира Global eSports Cup. По итогам соревнований только четыре коллектива продолжат свой путь к призовому фонду в 330 000$ и званию чемпиона. Призовой фонд третьего группового этапа региона СНГ, прошедшего в рамках выставки Игромир, составил 20 000$.</p>
+
+<p>Итоги трех дней противостояния выявили победителя по дисциплине Dota 2 - ими стали игроки из команды <strong>CIS Rejects,</strong> которые заняли первое место и получили кубок LAN ивента третьего группового этапа. В дальнейшей борьбе также примут участие три команды: <strong>HellRaisers, ScaryFacez </strong>и<strong> Newteam123.</strong></p>
+
+<p><strong>Результаты гранд-финала по Counter Strike: Global Offensive.</strong></p>
+
+<p>В бизнес-день,<strong> 1 октября</strong>, посетителям посчастливилось наблюдать за Гранд-Финалом второго сезона <strong>Game Show Open</strong> по дисциплине <strong>Counter Strike: Global Offensive.</strong> Четыре сильнейших команды этого сезона, пройдя через несколько этапов квалификации, приехали в Москву, чтобы сразиться за призовой фонд в размере <strong>250 000 рублей.</strong> Турнир прошёл по <strong>GSL системе</strong>: выигрывая в первом раунде, команда попадала в матч за 1-2 место, а проигрывая отправлялась воевать за 3-4 место. В результате захватывающих и зрелищных матчей, мы узнали чемпионов второго сезона! Ими стали ребята из казахстанского коллектива <strong>PARTY.</strong></p>
+
+<p><strong>Результаты гранд-финала по Hearthstone.</strong></p>
+
+<p>Фанаты <strong>Hearthstone</strong> также не были обделены, ведь на протяжении всей выставки у них была возможность сразиться с Александром &ldquo;<strong>Happa</strong>&rdquo; Знаменским в зоне Zenfone на стенде генерального партнера - <strong>ASUS.</strong> Каждый участник получал не только положительные эмоции, но и ценные призы! Гранд-Финал второго сезона <strong>Game Show Open</strong> по этой замечательной карточной игре прошёл в субботу, <strong>3 октября.</strong> Восемь игроков со всех уголков СНГ сразились за призовой фонд в размере <strong>100 000 рублей.</strong> Чемпионом стал Дмитрий &ldquo;<strong>Unwi</strong>&rdquo; Ижмяков, не проигравший за время турнира ни одного матча.</p>
+
+<p><strong>Активности партнеров</strong></p>
+
+<p><strong>Новый мобильный оператор Tele2</strong> представил на выставке &ldquo;Игромир 2015&rdquo; собственный стенд, на котором гости мероприятия голосовали против мобильных переплат с помощью специальной интерактивной стены. За четыре дня посетители выставки оставили более 20 тысяч голосов за низкие цены. На площадке оператора проводилась трансляция лучших матчей c главной сцены Game Show, а также была организована Wi-Fi зона, где гости подключались бесплатному интернету. Геймеры, пришедшие на стенд Tele2, смогли получить автографы известных киберспортсменов и стримеров. На главной сцене мероприятия проводились конкурсы от оператора, победители которых получили возможность лично пообщаться с такими звездами киберспорта, как Алексей j4 Липай, Евгений ChshrCt Кострома, Владимир PGG Аносов.</p>
+
+<p><strong>Компания ASUS</strong> на выставке Игромир 2015 продемонстрировала свои лучшие и самые новые продукты для геймеров и провела соревнование <strong>&laquo;ASUS &ndash; компьютер года 2015&raquo;</strong>, позволившее продемонстрировать все возможности отечественных производителей по сборке компьютеров hi-end класса, показать индивидуальный подход к сборке ПК и его внешнему виду. В соревновании приняли участие ведущие российские производители ПК hi-end уровня &ndash; HyperPC, DigitalRazor, EvoPC и Mejin. Собранные компьютеры можно было увидеть на стенде компании <strong>ASUS</strong>, а проголосовать за звание &ldquo;Лучшего компьютера ASUS 2015&rdquo; можно было на сайте компьютергода.рф. Пользователи, принявшие участие в голосовании, также разыграли ценные призы: игровой ноутбук ASUS G751, монитор ASUS ROG Swift PG278Q и мини-ПК ASUS ROG GR6.</p>
+
+<p>Крупнейшие отечественные производители игровых ПК, такие как <strong>HyperPC, DigitalRazor, EvoPC </strong>и<strong> Mejin</strong> подготовили для посетителей выставки Игромир 2015 настоящий подарок. Они собрали мощнейшие игровые ПК на базе компонентов ASUS и Republic of Gamers, предоставив возможность всем желающим поиграть в любые современные игры на максимальных настройках.&nbsp;</p>
+
+<p>Прямо на стенде ASUS все дни можно было сразиться командой или в формате public match в дисциплине Dota2. Команды-победители и команды-проигравшие получили в подарок геймерскую продукцию от ASUS, а для зрителей были проведены развлекательные конкурсы и разыграны фирменные сумки, адаптеры и другие призы от &nbsp;компании.&nbsp;</p>
+
+<p>В субботу на второй день выставки среди посетителей был разыгран смартфон Zenfone 2 ZE551ML 4 gb. А в воскресенье в середине дня прямо на стенде ASUS для всех поклонников Dota2 раздал автографы профессиональный игрок в Dota 2, игрок команды HellRaisers - Андреей &quot;<strong>Dread</strong>&quot; Голубев.&nbsp;</p>
+
+<p><strong>На стенде торговой марки HyperX&reg;</strong> посетители выставки получили возможность: &nbsp;оценить &nbsp;все новинки HyperX продукции: память DDR4 из линеек Savage и Fury, SSD PCI-e HyperX Predator, игровые гарнитуры HyperX Cloud Core и HyperX Cloud II Pink. Кроме того все желающие, смогли побороться &nbsp;в турнирах по CS:GO и Dota 2, получить автографы и сделать совместные фото с именитыми гостями. Среди гостей были звёзды киберспорта Дмитрий &laquo;Hooch&raquo; Богданов, Сергей &laquo;Fox&raquo; Столяров, &nbsp;Михаил &nbsp;&laquo;Dosia&raquo; &nbsp;Столяров, &nbsp;Денис &laquo;Seized&raquo; Костин и &nbsp;Егор &laquo;Flamie&raquo; &nbsp;Васильев из нынешнего состава Na`Vi, а также именитые стримеры Vityshka и Versuta и специальные гости &nbsp;Анна Костенко, &nbsp;Александр Happa Знаменский и многие другие. Все желающие могли поучаствовать &nbsp;в конкурсах, викторинах и лотереях с ценными призами от бренда HyperX&reg; и приобрести качественную гарнитуру HyperX &nbsp;со скидкой до 33% прямо на стенде.</p>
+
+<p><strong>Aerocool </strong>представили на своем стенде новую модель блоков питания серии VP c более эффективным отводом тепла и высокой температурной выносливостью компонентов БП, а также провели на своем стенде фотоконкурс в оригинальной фотозоне.</p>
+
+<p>А также большим количеством призов и сюрпризов порадовали аудиторию компании<strong> Logitech </strong>и<strong> Crucial.</strong></p>
+
+<p style="line-height: 20.8px; text-align: center;"><strong>Информация о компании</strong></p>
+
+<table border="0" cellpadding="1" cellspacing="1" style="line-height: 20.8px; width: 100%;">
+	<tbody>
+		<tr>
+			<td style="width: 170px; text-align: center; vertical-align: middle;"><img alt="" src="../../uploads/ckeditor/elfinder/hellraisers/Lostov/GS_picture.png" style="width: 150px; height: 70px;" /></td>
+			<td>Компания Game Show - это лидирующий на рынке России и СНГ организатор крупнейших киберспортивных LAN-мероприятий. Организатор межконтинентальных онлайн-лиг среди профессионалов по наиболее популярным дисциплинам.<br />
+			Game Show Studio &ndash; профессиональная онлайн-ТВ студия для геймеров. В структуру компании также входит ряд специализированных онлайн-площадок, где профессионалы и любители могут принять участие в разного рода турнирах.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="line-height: 20.8px; text-align: center;">&nbsp;</p>
+
+<p style="line-height: 20.8px; text-align: center;"><strong>Информация о партнерах</strong></p>
+
+<table border="0" cellpadding="1" cellspacing="1" style="line-height: 20.8px; width: 100%;">
+	<tbody>
+		<tr>
+			<td style="width: 150px; text-align: center; vertical-align: top;"><img alt="" src="../../uploads/ckeditor/elfinder/hellraisers/Lostov/tele2_picture.jpg" style="line-height: 20.8px; text-align: center; width: 150px; height: 84px;" /></td>
+			<td>
+			<p>Федеральный мобильный оператор Tele2 запускает в Москве первую коммуникационную кампанию против мобильных переплат, в рамках которой начинает знакомить жителей столичного региона с брендом компании. Tele2, единственный в России сотовый оператор-дискаунтер, завоевавший доверие 35 миллионов абонентов в более чем 60 регионах, выступает против неоправданно высокой стоимости услуг на мобильную связь в Москве и громко заявляет о своей политике низких цен. Придерживаясь честного подхода, оператор предлагает своим потенциальным абонентам простые понятные услуги связи без &laquo;звездочек&raquo;, скрытых условий и качественное обслуживание. Сеть Tele2 будет запущена в коммерческую эксплуатацию 22 октября 2015 года.</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center; width: 150px; vertical-align: top;"><img alt="" src="../../uploads/ckeditor/elfinder/hellraisers/Lostov/ASUS_picture.png" style="line-height: 20.8px; text-align: center; width: 150px; height: 46px;" /></td>
+			<td>
+			<p>Компания ASUS является создателем самых покупаемых и завоевавших наибольшее количество наград материнских плат, а также одним из трех ведущих производителей ноутбуков в мире. Будучи лидером новой цифровой эры, ASUS предлагает широкую линейку продуктов, включающую материнские платы, видеокарты, оптические приводы, мониторы, ПК, ноутбуки, нетбуки, серверы, мультимедийные устройства, беспроводные решения, сетевое оборудование, планшетные компьютеры и смартфоны. Все продукты ASUS отличает высокое качество и инновационность, они прекрасно подходят для современного дома и офиса. В 2014 году ASUS завоевала 4 326 наград. Оборот компании, насчитывающей более 13,6 тысяч сотрудников и высококлассных разработчиков по всему миру, составил в 2014 году 14,5 миллиардов долларов США.</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center; width: 170px; vertical-align: top;"><img alt="" src="../../uploads/ckeditor/elfinder/hellraisers/Lostov/intel.png" style="width: 150px; height: 114px;" /></td>
+			<td>
+			<p>Корпорация Intel, ведущий мировой производитель инновационных полупроводниковых компонентов, разрабатывающий технологии, продукцию и инициативы, направленные на постоянное повышение качества жизни людей и совершенствование методов их работы.</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center; width: 150px; vertical-align: top;"><img alt="" src="../../uploads/ckeditor/elfinder/hellraisers/Lostov/aerocool_picture.jpg" style="line-height: 20.8px; text-align: center; width: 150px; height: 147px;" /></td>
+			<td>
+			<p>Компания AeroCool Advanced Technologies (AAT) была основана в 2001 году. На раннем этапе работы нашей задачей было поделиться своим техническим опытом и<br />
+			инновационным дизайном в предоставлении полного решения для управления температурой на промышленных и персональных компьютерах. Сегодня Aerocool является одним из лидеров игрового рынка.&nbsp;<br />
+			Наш бренд и имидж продукта был хорошо воспринят геймерами и любителями по всему миру. Мы предлагаем полную линейку производительных продуктов, включая игровых корпуса, игровые блоки питания, игровые мыши, игровые аудио-гарнитуры, игровые клавиатуры, многофункциональные панели и вентиляторы. Представление серии PGS (Performance Gaming Systems) в 2009 году была успешной и была хорошо принята игровым сообществом. В этом году на выставке Computex Aerocool объявила о новой линейке Strike-X, которая подняла Aerocool на другой уровень. Мы будем продолжать внедрять инновации и доставлять лучший пользовательский опыт для геймеров по всему миру.<br />
+			Be Cool !! Be Aerocool !!!</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center; width: 150px; vertical-align: top;"><img alt="" src="../../uploads/ckeditor/elfinder/hellraisers/Lostov/hyperx_picture.png" style="line-height: 20.8px; text-align: center; width: 150px; height: 44px;" /></td>
+			<td>HyperX &ndash; линейка высокопроизводительной продукции от компании Kingston Technology, ведущего независимого производителя устройств хранения данных.<br />
+			Модули памяти HyperX, SSD и USB-накопители, игровые гарнитуры и коврики для мыши разработаны с использованием высококлассных компонентов, которые обеспечивают исключительную производительность, качество и современный внешний вид, и используются профессиональными геймерами во всем мире. HyperX поддерживает более 20 команд во всем мире и является основным спонсором Intel Extreme Masters и Dreamhack. Узнайте, как HyperX с помощью самых современных технологий поможет вам играть и побеждать.</td>
+		</tr>
+		<tr>
+			<td style="width: 150px; text-align: center; vertical-align: top;"><img alt="" src="../../uploads/ckeditor/elfinder/hellraisers/Lostov/logitech_picture.png" style="width: 150px; height: 60px;" /></td>
+			<td>Компания Logitech является мировым лидером в производстве периферийных устройств, предоставляющих пользователям возможность легко и просто погрузиться в цифровой мир развлечений. Решения Logitech, совместимые с различными платформами, позволяют реализовать все возможности аудио- и видео- развлечений, игр, общения в социальных сетях, передачи данных через Интернет, а также видеосистем безопасности и управления домашним кинотеатром. Швейцарская открытая акционерная компания Logitech International, основанная в 1981 году, котируется на Швейцарской фондовой бирже (LOGN) и на бирже Nasdaq (LOGI) в США.</td>
+		</tr>
+	</tbody>
+</table>
+
+<div class='row'>
+<div class='col-md-6'>
+<span class='fa fa-eye'></span>
+<i class='text-muted' id='youtube_video_views'>
+2767
+</i>
+</div>
+<div class='col-md-6 text-right'>
+<span>Тег:</span>
+<span class='text-muted'>
+Hellraisers DOTA2
+,
+</span>
+<span class='text-muted'>
+Hellraisers WOT
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='panel contrast light comments comments-head-wr'>
+<div class='panel-heading panel-heading-sm' id='comments'>
+<h2>Комментарии (0)</h2>
+</div>
+<div class='panel contrast light comments'>
+<div class='article-comments'>
+<!-- .comments-action-write-wrapper -->
+<!-- %a.sltv-comments-action-write-load -->
+<div class='sltv-comments-pagination'></div>
+<div class='comments'>
+<div class='comments-list'>
+<a class='top-btn hidden' href='3342-igromir-2015-podvedenie-itogov.html#'>
+<i class='fa fa-chevron-up'></i>
+</a>
+
+</div>
+<div class='panel-footer sltv-new-comment-container'></div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div class='col-sm-4'>
+<div class='panel panel-default panel-tags'>
+<div class='panel-heading'>
+<h2>Еще</h2>
+</div>
+<div class='panel-body news-list'>
+<ul class='list-group news'>
+<li class='list-group-item bull'>
+<a href="4145-s-dnem-rozhdeniya-bondik.html">С днем рождения, bondik!</a>
+</li>
+<li class='list-group-item bull'>
+<a href="http://hellraisers.ru/ru/ru/news/4136-oskar-uhodit-v-neaktiv.html">oskar уходит в неактив</a>
+</li>
+<li class='list-group-item bull'>
+<a href="4143-itogi-tvorcheskogo-konkursa-ot-hellraisers.html">Итоги творческого конкурса от HellRaisers!</a>
+</li>
+<li class='list-group-item bull'>
+<a href="4142-tomashu-oskar-shtyastny-25.html">Томашу «oskar» Штястны — 25!</a>
+</li>
+<li class='list-group-item bull'>
+<a href="4139-zaday-vopros-patriku-zero-zhudelyu.html">Задай вопрос Патрику «Zero» Жуделю</a>
+</li>
+<li class='list-group-item bull'>
+<a href="4138-ivan-johnta-shevtsov-vryvaetsya-v-efir.html">Иван «Johnta» Шевцов врывается в эфир!</a>
+</li>
+<li class='list-group-item bull'>
+<a href="4137-fragmovie-hellraisers-na-dreamhack-tours-2016-i-esl-one-cologne-2016-qualifier.html">Fragmovie — HellRaisers на DreamHack Tours 2016 и ESL One: Cologne 2016 Qualifier</a>
+</li>
+<li class='list-group-item bull'>
+<a href="4135-hellraisers-proschayutsya-s-dreamhack-summer-2016.html">HellRaisers прощаются с DreamHack Summer 2016</a>
+</li>
+<li class='list-group-item bull'>
+<a href="4134-s-dnem-rozhdeniya-tankist-near_you.html">С днем рождения, танкист Near_You!</a>
+</li>
+<li class='list-group-item bull'>
+<a href="4133-bez-prava-na-oshibku-hellraisers-sygrayut-s-epsilon.html">Без права на ошибку: HellRaisers сыграют с Epsilon</a>
+</li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  window.Sltv2 = window.Sltv2 || {};
+  window.Sltv2.is_user_signed_in = false;
+  window.Sltv2.current_user = false;
+  window.Sltv2.Article = {
+    Contents: {"id":3342,"count_views":"2767","title":"\u0418\u0433\u0440\u043e\u043c\u0438\u0440 2015. \u041f\u043e\u0434\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0438\u0442\u043e\u0433\u043e\u0432","picture":{"thumb":{"picture":{"url":"/uploads/news/article/picture/3342/thumb_igromir2015_1.jpg"}}},"user":{"nick":"Jordisson"},"created_at":"2015-10-13 13-10","preambula":"","content":"","comments_count":0,"comments":[]}
+  };
+</script>
+
+
+<br>
+<div class='container text-center'>
+<ul class='list-inline'>
+<li>
+<a href="../news.html">Новости</a>
+</li>
+<li>
+<a href="../video.html">Видео</a>
+</li>
+<li>
+<a href="../matches/past.html">Матчи</a>
+</li>
+<li>
+<a href="../broadcasts.html">Трансляции</a>
+</li>
+<li>
+<a href="../roster.html">Состав</a>
+</li>
+<li>
+<a href="../pages/partnershr.html">Партнеры</a>
+</li>
+<li>
+<a href="../pages/contactshr.html">Контакты</a>
+</li>
+</ul>
+<div class='clearfix'></div>
+<div class='copyright'>
+© 2014 Hellraisers. With Love From Hell.
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='conversejs'></div>
+<script src="../../assets/application-495767579b8133239d19e3cb5c1522ce.js" type="text/javascript"></script>
+
+<script>
+  I18n.defaultLocale = "ru";
+  I18n.locale = "ru";
+</script>
+
+<script>
+  window.Sltv2.is_user_signed_in = false;
+  window.Sltv2.Front.init_modal_auth();
+  
+  //
+  //var elems = $(".random_banner a");
+  //if (elems.length) {
+  //  var keep = Math.floor(Math.random() * elems.length);
+  //  for (var i = 0; i < elems.length; ++i) {
+  //    if (i !== keep) {
+  //      $(elems[i]).hide();
+  //    }
+  //  }
+  //}
+</script>
+</body>
+
+<!-- Mirrored from hellraisers.pro/ru/news/3342-igromir-2015-podvedenie-itogov by HTTrack Website Copier/3.x [XR&CO'2013], Tue, 05 Jul 2016 14:37:58 GMT -->
+</html>
